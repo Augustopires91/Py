@@ -28,18 +28,18 @@ while True:
 
     if sabor == "BA":
         if tamanho == "P":
-            preco = 15
+            preco = 16
         elif tamanho == "M":
-            preco = 20
+            preco = 18
         else:
-            preco = 25
+            preco = 22
     elif sabor == "FF":
         if tamanho == "P":
-            preco = 18
+            preco = 15
         elif tamanho == "M":
-            preco = 23
+            preco = 17
         else:
-            preco = 28
+            preco = 21
 
     total += preco
     print("Preço do pedido: R$", preco)
