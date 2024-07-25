@@ -48,6 +48,6 @@ while True:
 
     mais = input("Deseja pedir mais alguma coisa? (S/N): ")
     if mais.upper() != "S":
-        break
+        break # encerra o programa
 # imprime o total do pedido
 print("Valor total do pedido: R$", total)
